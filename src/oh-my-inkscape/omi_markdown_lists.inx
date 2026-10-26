@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension" translationdomain="oh-my-inkscape">
+  <name>Markdown Lists</name>
+  <id>org.oh-my-inkscape.markdown-lists</id>
+
+  <param name="tab" type="notebook">
+    <page name="text" gui-text="Text">
+      <label>Select a rectangle to use as the frame (the text takes its position and width), or select a block made by this extension to regenerate it.</label>
+      <param name="text" type="string" appearance="multiline" gui-text="Markdown:"></param>
+      <param name="md_file" type="path" mode="file" filetypes="md,markdown,txt" gui-text="…or Markdown file:"></param>
+      <param name="mode" type="optiongroup" appearance="radio" gui-text="Lines:">
+        <option value="metrics">Fixed (precise, computed from the font files)</option>
+        <option value="flowed">Auto-wrapping (keeps re-wrapping when edited in Inkscape)</option>
+      </param>
+      <param name="margin_mm" type="float" precision="2" min="0" max="100" gui-text="Inner margin from the frame (mm):">2</param>
+      <separator/>
+      <label appearance="header">Regenerating an existing block</label>
+      <param name="source" type="optiongroup" appearance="combo" gui-text="Take the text from:">
+        <option value="block">the block (its Description in Object Properties, or its linked file)</option>
+        <option value="dialog">this dialog (replaces the block's text)</option>
+      </param>
+      <param name="use_stored" type="bool" gui-text="Reuse the block's own settings (ignore the other tabs)">true</param>
+    </page>
+
+    <page name="type" gui-text="Type">
+      <param name="font_family" type="string" gui-text="Font family:">sans-serif</param>
+      <param name="font_size_pt" type="float" precision="2" min="1" max="200" gui-text="Size (pt):">9</param>
+      <param name="line_height" type="float" precision="2" min="0.5" max="5" gui-text="Line height (× size):">1.2</param>
+      <param name="color" type="color" appearance="colorbutton" gui-text="Color:">0x000000ff</param>
+      <param name="paragraph_gap_mm" type="float" precision="2" min="0" max="50" gui-text="Space between paragraphs (mm):">1.5</param>
+      <param name="smart_punctuation" type="bool" gui-text="Typographic punctuation (’ “ ” – — …)">true</param>
+      <param name="keep_together" type="bool" gui-text="Keep [references] and number + word (−1 ZOC) on one line">true</param>
+      <param name="style_file" type="path" mode="file" filetypes="json" gui-text="Style file (JSON, optional, overrides this dialog):"></param>
+    </page>
+
+    <page name="lists" gui-text="Lists">
+      <param name="bullets" type="string" gui-text="Bullets per level (separated by spaces):">• – ▪</param>
+      <param name="marker_gap" type="optiongroup" appearance="combo" gui-text="Space after the marker:">
+        <option value="en">En space</option>
+        <option value="space">Normal space</option>
+        <option value="em">Em space</option>
+        <option value="mm">Fixed width (below)</option>
+      </param>
+      <param name="marker_gap_mm" type="float" precision="2" min="0" max="50" gui-text="Fixed width (mm):">2</param>
+      <param name="hang" type="optiongroup" appearance="combo" gui-text="Text edge:">
+        <option value="list">Shared by the list (widest marker)</option>
+        <option value="item">Per item (each marker's own width)</option>
+      </param>
+      <param name="list_indent_mm" type="float" precision="2" min="0" max="100" gui-text="List indent (mm):">0</param>
+      <param name="nested_indent_mm" type="float" precision="2" min="0" max="100" gui-text="Extra indent of nested lists (mm):">0</param>
+      <param name="item_gap_mm" type="float" precision="2" min="0" max="50" gui-text="Space between items (mm):">0.5</param>
+      <param name="marker_bold" type="bool" gui-text="Bold markers">false</param>
+    </page>
+
+    <page name="headings" gui-text="Headings">
+      <label appearance="header"># Heading 1</label>
+      <param name="h1_size" type="float" precision="2" min="1" max="200" gui-text="Size (pt):">12</param>
+      <param name="h1_before" type="float" precision="2" min="0" max="50" gui-text="Space before (mm):">3</param>
+      <param name="h1_after" type="float" precision="2" min="0" max="50" gui-text="Space after (mm):">1.5</param>
+      <label appearance="header">## Heading 2</label>
+      <param name="h2_size" type="float" precision="2" min="1" max="200" gui-text="Size (pt):">10.5</param>
+      <param name="h2_before" type="float" precision="2" min="0" max="50" gui-text="Space before (mm):">2.5</param>
+      <param name="h2_after" type="float" precision="2" min="0" max="50" gui-text="Space after (mm):">1</param>
+      <label appearance="header">### Heading 3 and deeper</label>
+      <param name="h3_size" type="float" precision="2" min="1" max="200" gui-text="Size (pt):">9</param>
+      <param name="h3_before" type="float" precision="2" min="0" max="50" gui-text="Space before (mm):">2</param>
+      <param name="h3_after" type="float" precision="2" min="0" max="50" gui-text="Space after (mm):">0.8</param>
+    </page>
+
+    <page name="help" gui-text="Help">
+      <label>Markdown: # headings, paragraphs, - bullets, 1. / a) numbered items, nested lists (indent by 2–4 spaces), **bold**, *italic*. A line ending with two spaces breaks the line.</label>
+      <label>The block remembers its Markdown in its Description (Object → Object Properties) and is tied to its frame: edit the Description or resize the rectangle, select the block or the rectangle, and run this extension again to regenerate it.</label>
+      <label>Fixed lines are exact and portable; auto-wrapping text can be edited in place, but items below do not move if a paragraph grows: regenerate to restack.</label>
+      <label appearance="url">https://github.com/pablito/oh-my-inkscape</label>
+    </page>
+  </param>
+
+  <effect needs-live-preview="true">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="Oh My Inkscape"/>
+    </effects-menu>
+    <menu-tip>Typeset Markdown with bulleted and numbered lists and hanging indents</menu-tip>
+  </effect>
+
+  <script>
+    <command location="inx" interpreter="python">omi_markdown_lists.py</command>
+  </script>
+</inkscape-extension>

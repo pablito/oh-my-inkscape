@@ -1,0 +1,287 @@
+# Italian translation of Oh My Inkscape.
+# Copyright (C) 2026 Oh My Inkscape contributors
+# This file is distributed under the same license as the oh-my-inkscape package.
+# Oh My Inkscape contributors, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: oh-my-inkscape\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 23:41+0100\n"
+"PO-Revision-Date: 2026-10-26 23:45+0100\n"
+"Last-Translator: Oh My Inkscape contributors\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Markdown Lists"
+msgstr "Elenchi Markdown"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Text"
+msgstr "Testo"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Select a rectangle to use as the frame (the text takes its position and width), or select a block made by this extension to regenerate it."
+msgstr "Seleziona un rettangolo da usare come cornice (il testo ne prende posizione e larghezza), oppure seleziona un blocco creato da questa estensione per rigenerarlo."
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Markdown:"
+msgstr "Markdown:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "…or Markdown file:"
+msgstr "…oppure file Markdown:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Lines:"
+msgstr "Righe:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Fixed (precise, computed from the font files)"
+msgstr "Fisse (precise, calcolate dai file dei font)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Auto-wrapping (keeps re-wrapping when edited in Inkscape)"
+msgstr "A capo automatico (continua ad andare a capo se modifichi il testo in Inkscape)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Inner margin from the frame (mm):"
+msgstr "Margine interno dalla cornice (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Regenerating an existing block"
+msgstr "Rigenerare un blocco esistente"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Take the text from:"
+msgstr "Prendi il testo da:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "the block (its Description in Object Properties, or its linked file)"
+msgstr "il blocco (la sua Descrizione in Proprietà oggetto, o il file collegato)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "this dialog (replaces the block's text)"
+msgstr "questa finestra (sostituisce il testo del blocco)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Reuse the block's own settings (ignore the other tabs)"
+msgstr "Riusa le impostazioni del blocco (ignora le altre schede)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Type"
+msgstr "Carattere"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Font family:"
+msgstr "Famiglia del font:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Size (pt):"
+msgstr "Corpo (pt):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Line height (× size):"
+msgstr "Interlinea (× corpo):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Color:"
+msgstr "Colore:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Space between paragraphs (mm):"
+msgstr "Spazio tra paragrafi (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Typographic punctuation (’ “ ” – — …)"
+msgstr "Punteggiatura tipografica (’ “ ” – — …)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Keep [references] and number + word (−1 ZOC) on one line"
+msgstr "Tieni su una riga i [riferimenti] e numero + parola (−1 ZOC)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Style file (JSON, optional, overrides this dialog):"
+msgstr "File di stile (JSON, facoltativo, prevale su questa finestra):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Lists"
+msgstr "Elenchi"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Bullets per level (separated by spaces):"
+msgstr "Simboli per livello (separati da spazi):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Space after the marker:"
+msgstr "Spazio dopo il simbolo:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "En space"
+msgstr "Spazio en (mezzo quadratone)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Normal space"
+msgstr "Spazio normale"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Em space"
+msgstr "Spazio em (quadratone)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Fixed width (below)"
+msgstr "Larghezza fissa (sotto)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Fixed width (mm):"
+msgstr "Larghezza fissa (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Text edge:"
+msgstr "Allineamento del testo:"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Shared by the list (widest marker)"
+msgstr "Comune a tutto l'elenco (simbolo più largo)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Per item (each marker's own width)"
+msgstr "Per voce (larghezza del proprio simbolo)"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "List indent (mm):"
+msgstr "Rientro dell'elenco (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Extra indent of nested lists (mm):"
+msgstr "Rientro aggiuntivo degli elenchi annidati (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Space between items (mm):"
+msgstr "Spazio tra le voci (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Bold markers"
+msgstr "Simboli in grassetto"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Headings"
+msgstr "Titoli"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "# Heading 1"
+msgstr "# Titolo 1"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Space before (mm):"
+msgstr "Spazio prima (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Space after (mm):"
+msgstr "Spazio dopo (mm):"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "## Heading 2"
+msgstr "## Titolo 2"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "### Heading 3 and deeper"
+msgstr "### Titolo 3 e successivi"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Help"
+msgstr "Aiuto"
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Markdown: # headings, paragraphs, - bullets, 1. / a) numbered items, nested lists (indent by 2–4 spaces), **bold**, *italic*. A line ending with two spaces breaks the line."
+msgstr "Markdown: # titoli, paragrafi, - elenchi puntati, 1. / a) voci numerate, elenchi annidati (rientro di 2–4 spazi), **grassetto**, *corsivo*. Una riga che termina con due spazi va a capo."
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "The block remembers its Markdown in its Description (Object → Object Properties) and is tied to its frame: edit the Description or resize the rectangle, select the block or the rectangle, and run this extension again to regenerate it."
+msgstr "Il blocco conserva il suo Markdown nella Descrizione (Oggetto → Proprietà oggetto) ed è legato alla sua cornice: modifica la Descrizione o ridimensiona il rettangolo, seleziona il blocco o il rettangolo e rilancia l'estensione per rigenerarlo."
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Fixed lines are exact and portable; auto-wrapping text can be edited in place, but items below do not move if a paragraph grows: regenerate to restack."
+msgstr "Le righe fisse sono esatte e uguali ovunque; il testo a capo automatico si modifica sul posto, ma le voci sotto non si spostano se un paragrafo si allunga: rigenera per riallinearle."
+
+#: src/oh-my-inkscape/omi_markdown_lists.inx
+msgid "Typeset Markdown with bulleted and numbered lists and hanging indents"
+msgstr "Impagina Markdown con elenchi puntati e numerati e rientri sospesi"
+
+#: src/oh-my-inkscape/omi_lib/mdlists/fonts.py:75
+#, python-brace-format
+msgid "The font family '{family}' is not installed: Inkscape and this measurement fall back to '{fallback}'."
+msgstr "La famiglia di font '{family}' non è installata: Inkscape e questa misurazione useranno '{fallback}'."
+
+#: src/oh-my-inkscape/omi_lib/mdlists/fonts.py:110
+#, python-brace-format
+msgid "Cannot read the font file {path}: {error}"
+msgstr "Impossibile leggere il file del font {path}: {error}"
+
+#: src/oh-my-inkscape/omi_lib/mdlists/fonts.py:112
+#, python-brace-format
+msgid "No TrueType/OpenType file found for the font family '{family}'. Check that it is installed (fc-list), or set fonts.regular in a style file."
+msgstr "Nessun file TrueType/OpenType trovato per la famiglia '{family}'. Verifica che sia installata (fc-list), oppure indica fonts.regular in un file di stile."
+
+#: src/oh-my-inkscape/omi_lib/mdlists/fonts.py:118
+#, python-brace-format
+msgid "No {variant} file for '{family}': measuring with {file}; Inkscape may synthesize the style and widths can differ."
+msgstr "Nessun file {variant} per '{family}': misuro con {file}; Inkscape potrebbe simulare lo stile e le larghezze possono differire."
+
+#: src/oh-my-inkscape/omi_lib/mdlists/fonts.py:129
+#, python-brace-format
+msgid "{file} lacks the characters {chars}: Inkscape will substitute another font and widths will not match."
+msgstr "In {file} mancano i caratteri {chars}: Inkscape userà un altro font e le larghezze non corrisponderanno."
+
+#: src/oh-my-inkscape/omi_lib/mdlists/layout.py:83
+#, python-brace-format
+msgid "'{word}' is wider than its column ({w:.2f} > {col:.2f} mm)."
+msgstr "'{word}' è più largo della sua colonna ({w:.2f} > {col:.2f} mm)."
+
+#: src/oh-my-inkscape/omi_lib/mdlists/style.py:54
+msgid "'hang' must be 'list' or 'item'"
+msgstr "'hang' deve essere 'list' o 'item'"
+
+#: src/oh-my-inkscape/omi_lib/mdlists/style.py:56
+msgid "'bullets' needs at least one marker"
+msgstr "'bullets' richiede almeno un simbolo"
+
+#: src/oh-my-inkscape/omi_lib/mdlists/style.py:59
+#, python-brace-format
+msgid "'{key}' must be a positive number"
+msgstr "'{key}' deve essere un numero positivo"
+
+#: src/oh-my-inkscape/omi_lib/mdlists/style.py:61
+msgid "'headings' needs at least one level"
+msgstr "'headings' richiede almeno un livello"
+
+#: src/oh-my-inkscape/omi_markdown_lists.py:102
+#, python-brace-format
+msgid "Cannot read the style file {path}: {error}"
+msgstr "Impossibile leggere il file di stile {path}: {error}"
+
+#: src/oh-my-inkscape/omi_markdown_lists.py:149
+msgid "Select a rectangle to use as the text frame, or a block made by Markdown Lists to regenerate it."
+msgstr "Seleziona un rettangolo da usare come cornice del testo, oppure un blocco creato da Elenchi Markdown per rigenerarlo."
+
+#: src/oh-my-inkscape/omi_markdown_lists.py:155
+msgid "Write some Markdown in the Text tab or choose a Markdown file."
+msgstr "Scrivi del Markdown nella scheda Testo oppure scegli un file Markdown."
+
+#: src/oh-my-inkscape/omi_markdown_lists.py:165
+msgid "This block has no stored Markdown: choose “this dialog” as the text source."
+msgstr "Questo blocco non contiene Markdown: scegli “questa finestra” come origine del testo."
+
+#: src/oh-my-inkscape/omi_markdown_lists.py:190
+#, python-brace-format
+msgid "The frame is too narrow for the margin ({width:.1f} mm left)."
+msgstr "La cornice è troppo stretta per il margine (restano {width:.1f} mm)."
+
+#: src/oh-my-inkscape/omi_markdown_lists.py:227
+#, python-brace-format
+msgid "The text is {extra:.1f} mm taller than its frame."
+msgstr "Il testo supera di {extra:.1f} mm l'altezza della cornice."
